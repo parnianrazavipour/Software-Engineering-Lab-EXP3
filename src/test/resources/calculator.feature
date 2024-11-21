@@ -2,8 +2,8 @@
 Feature: Calculator operations
   Scenario Outline: Perform mathematical operations
     Given two operands <operand1> and <operand2>
-    When the operation <operator> is performed
-    Then the result should be <result>
+    When the operation "<operator>" is performed
+    Then the result should be "<result>"
 
     Examples:
       | operand1 | operand2 | operator | result |
